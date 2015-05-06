@@ -4,3 +4,4 @@ EFCustomMigrationOperations.Sample/bin/
 EFCustomMigrationOperations.Sample/obj/
 *.suo
 *.user
+packages/
