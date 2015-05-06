@@ -1,2 +1,6 @@
-EFCustomMigrationOperations.CheckConstraints/bin/
-EFCustomMigrationOperations.CheckConstraints/obj/
+EFCustomMigrationOperations/bin/
+EFCustomMigrationOperations/obj/
+EFCustomMigrationOperations.Sample/bin/
+EFCustomMigrationOperations.Sample/obj/
+*.suo
+*.user

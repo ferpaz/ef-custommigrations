@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCustomMigrationOperations.CheckConstraints", "EFCustomMigrationOperations.CheckConstraints\EFCustomMigrationOperations.CheckConstraints.csproj", "{4388ECA9-C99E-4C1D-81B8-5E8576EE3242}"
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCustomMigrationOperations.Sample", "EFCustomMigrationOperations.Sample\EFCustomMigrationOperations.Sample.csproj", "{F17245F0-F6B8-4205-86A9-E79B681BCA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCustomMigrationOperations", "EFCustomMigrationOperations\EFCustomMigrationOperations.csproj", "{4388ECA9-C99E-4C1D-81B8-5E8576EE3242}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17245F0-F6B8-4205-86A9-E79B681BCA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17245F0-F6B8-4205-86A9-E79B681BCA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17245F0-F6B8-4205-86A9-E79B681BCA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17245F0-F6B8-4205-86A9-E79B681BCA45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4388ECA9-C99E-4C1D-81B8-5E8576EE3242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4388ECA9-C99E-4C1D-81B8-5E8576EE3242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4388ECA9-C99E-4C1D-81B8-5E8576EE3242}.Release|Any CPU.ActiveCfg = Release|Any CPU
