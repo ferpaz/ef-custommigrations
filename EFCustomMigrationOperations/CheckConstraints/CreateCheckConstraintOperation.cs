@@ -78,7 +78,7 @@ namespace EFCustomMigrationOperations.CheckConstraints
 
         public string BuildDefaultName()
         {
-            return string.Format("CK_{0}_{1}", Table, Column);
+            return string.Format("CK_{0}_{1}", Table.Replace(".", "_").Replace("[", "").Replace("]", ""), Column);
         }
     }
 }
