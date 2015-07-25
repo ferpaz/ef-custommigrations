@@ -78,12 +78,12 @@ namespace EFCustomMigrationOperations.DefaultContraints
 
         public string BuildDefaultName()
         {
-            return string.Format("DF_{0}_{1}", Table, Column);
+            return string.Format("DF_{0}_{1}", Table.Replace(".", "_").Replace("[", "").Replace("]", ""), Column);
         }
 
         public string BuildVariableName()
         {
-            return string.Format("@df_{0}_{1}", Table.Replace(".", "_"), Column);
+            return string.Format("@{0}_{1}", Table.Replace(".", "_").Replace("[", "").Replace("]", ""), Column);
         }
     }
 }

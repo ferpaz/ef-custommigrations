@@ -27,7 +27,7 @@ namespace EFCustomMigrationOperations.DefaultContraints
             using (var writer = Writer())
             {
                 writer.WriteLine("declare {0} as nvarchar(max)", migrationOperation.BuildVariableName());
-                writer.WriteLine("SELECT {0} = 'ALTER TABLE {1} DROP CONSTRAINT ' + name FROM sys.default_constraints" +
+                writer.WriteLine("SELECT {0} = 'ALTER TABLE {1} DROP CONSTRAINT [' + name + ']' FROM sys.default_constraints" +
                                  " WHERE parent_object_id = object_id(N'{1}', N'U')" +
                                    " and parent_column_id = (select parent_column_id from sys.columns where object_id = object_id(N'{1}', N'U') and name = N'{2}')",
                                  migrationOperation.BuildVariableName(),
