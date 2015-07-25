@@ -1,5 +1,4 @@
-##Entity Framework 6
-##Custom migration operations
+##Entity Framework 6 - Custom migration operations
 
 This repository contains a custom migration operation for entity framework 6 for creating and dropping a CHECK CONSTRAINTS and DEFAULT CONSTRAINTS.
 
