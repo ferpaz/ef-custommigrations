@@ -57,11 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckConstraints\CreateCheckConstraintOperation.cs" />
-    <Compile Include="CheckConstraints\CheckConstraintMigrationSqlGenerator.cs" />
+    <Compile Include="CustomMigrationSqlGenerator.cs" />
     <Compile Include="DbMigrationExtensions.cs" />
     <Compile Include="CheckConstraints\DropCheckConstraintOperation.cs" />
     <Compile Include="DefaultContraints\CreateDefaultConstraintOperation.cs" />
-    <Compile Include="DefaultContraints\DefaultConstraintMigrationSqlGenerator.cs" />
     <Compile Include="DefaultContraints\DropDefaultConstraintOperation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

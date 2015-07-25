@@ -1,6 +1,4 @@
 using System.Data.Entity.Migrations;
-using EFCustomMigrationOperations.CheckConstraints;
-using EFCustomMigrationOperations.DefaultContraints;
 using EFCustomMigrationOperations.Sample.Model;
 
 namespace EFCustomMigrationOperations.Sample.Migrations
@@ -10,8 +8,7 @@ namespace EFCustomMigrationOperations.Sample.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            SetSqlGenerator("System.Data.SqlClient", new CheckConstraintMigrationSqlGenerator());
-            SetSqlGenerator("System.Data.SqlClient", new DefaultConstraintMigrationSqlGenerator());
+            SetSqlGenerator("System.Data.SqlClient", new CustomMigrationSqlGenerator());
         }
 
         protected override void Seed(ProductContext context)
