@@ -1,5 +1,4 @@
 using System.Data.Entity.Migrations;
-using EFCustomMigrationOperations.CheckConstraints;
 
 namespace EFCustomMigrationOperations.Sample.Migrations
 {

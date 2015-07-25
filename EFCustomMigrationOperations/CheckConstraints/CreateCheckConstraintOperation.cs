@@ -22,9 +22,7 @@ namespace EFCustomMigrationOperations.CheckConstraints
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException(
-                        "Argument is null or contains only white spaces.",
-                        "value");
+                    throw new ArgumentException("Argument is null or contains only white spaces.", "value");
                 }
 
                 _table = value;
@@ -38,9 +36,7 @@ namespace EFCustomMigrationOperations.CheckConstraints
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException(
-                        "Argument is null or contains only white spaces.", 
-                        "value");
+                    throw new ArgumentException("Argument is null or contains only white spaces.", "value");
                 }
 
                 _column = value;
@@ -54,9 +50,7 @@ namespace EFCustomMigrationOperations.CheckConstraints
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException(
-                        "Argument is null or contains only white spaces.", 
-                        "value");
+                    throw new ArgumentException("Argument is null or contains only white spaces.", "value");
                 }
 
                 _checkConstraint = value;
@@ -70,9 +64,7 @@ namespace EFCustomMigrationOperations.CheckConstraints
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException(
-                        "Argument is null or contains only white spaces.", 
-                        "value");
+                    throw new ArgumentException("Argument is null or contains only white spaces.", "value");
                 }
 
                 _checkConstraintName = value;

@@ -59,6 +59,10 @@
     <Compile Include="Migrations\201405020914473_AddCheckConstraint.Designer.cs">
       <DependentUpon>201405020914473_AddCheckConstraint.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201507251717274_AddDefaultContraint.cs" />
+    <Compile Include="Migrations\201507251717274_AddDefaultContraint.Designer.cs">
+      <DependentUpon>201507251717274_AddDefaultContraint.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\ProductContext.cs" />
@@ -75,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201405020914473_AddCheckConstraint.resx">
       <DependentUpon>201405020914473_AddCheckConstraint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507251717274_AddDefaultContraint.resx">
+      <DependentUpon>201507251717274_AddDefaultContraint.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

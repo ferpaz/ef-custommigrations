@@ -12,5 +12,7 @@ namespace EFCustomMigrationOperations.Sample.Model
         public string SKU { get; set; }
 
         public decimal Price { get; set; }
+
+        public bool InStock { get; set; }
     }
 }
